@@ -4,7 +4,7 @@ import pandas as pd
 import numpy as np
 
 # configuration 
-st.set_option('deprecation.showfileUploaderEncoding', False)
+# st.set_option('deprecation.showfileUploaderEncoding', False)
 
 #  add logo
 from PIL import Image

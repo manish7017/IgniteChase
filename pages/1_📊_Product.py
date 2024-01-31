@@ -21,7 +21,6 @@ uploaded_file = st.sidebar.file_uploader(label="Upload your CSV or Excel file.",
 
 
 if uploaded_file is not None:
-    global df
     try:
         if uploaded_file.name.endswith('.csv'):
             df = pd.read_csv(uploaded_file)
